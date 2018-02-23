@@ -7,7 +7,7 @@ An answer to the Loops and Functions exercise in the Tour of Go from golang
 
 ### Description ###
 
-This is a simple program demonstrating Newton's method of iteratively computing an unknown value. In this case we use the square root of 2 as the unknown value. Some initial guess as to what the unknown value is must be entered, and with each loop this guess approaches the correct value until the guess is within .001 of the correct value. For the square root of a number x, the amount the guess is adjusted by is
+This is a simple program demonstrating Newton's method of iteratively computing an unknown value. In this case we use the square root of 2pi as the unknown value. Some initial guess as to what the unknown value is must be entered, and with each loop this guess approaches the correct value until the guess is within .001 of the correct value. For the square root of a number x, the amount the guess is adjusted by is
 
 (z^2 - x)/(2z),
 
